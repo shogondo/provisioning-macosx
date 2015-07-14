@@ -15,6 +15,7 @@
       - { name: curl }
       - { name: git }
       - { name: macvim }
+      - { name: vim }
       - { name: wget }
     homebrew_cask_packages:
       - { name: chefdk }
