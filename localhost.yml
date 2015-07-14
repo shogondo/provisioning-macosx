@@ -53,6 +53,12 @@
     - name: Store homebrew cask package info
       shell: brew cask info {{ item }} > cask_info/{{ item }}
       with_items: cask_result.results | selectattr('changed') | map(attribute='item') | map(attribute='name') | list
+    - name: Install vagrant plugins
+      shell: vagrant plugin install {{ item }}
+      with_items:
+        - vagrant-berkshelf
+        - vagrant-exec
+        - vagrant-omnibus
     - name: Configure git
       command: git config --global {{ item }}
       with_items:
