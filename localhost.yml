@@ -17,6 +17,7 @@
       - { name: macvim }
       - { name: wget }
     homebrew_cask_packages:
+      - { name: chefdk }
       - { name: vagrant }
       - { name: virtualbox }
   tasks:
