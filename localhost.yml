@@ -15,6 +15,7 @@
       - { name: curl }
       - { name: git }
       - { name: macvim }
+      - { name: mysql }
       - { name: rbenv }
       - { name: ruby-build }
       - { name: vim }
