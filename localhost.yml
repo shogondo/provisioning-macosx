@@ -23,6 +23,7 @@
     homebrew_cask_packages:
       - { name: chefdk }
       - { name: google-chrome }
+      - { name: mysqlworkbench }
       - { name: vagrant }
       - { name: virtualbox }
   tasks:
