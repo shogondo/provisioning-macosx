@@ -16,6 +16,7 @@
       - { name: git }
       - { name: macvim }
       - { name: mysql }
+      - { name: pandoc }
       - { name: rbenv }
       - { name: ruby-build }
       - { name: vim }
