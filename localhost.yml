@@ -14,6 +14,7 @@
       - { name: coreutils }
       - { name: curl }
       - { name: git }
+      - { name: hub }
       - { name: macvim }
       - { name: mysql }
       - { name: pandoc }
