@@ -11,6 +11,7 @@
       - { name: openssl, state: linked, install_options: force }
       - { name: python }
       - { name: ansible }
+      - { name: awscli }
       - { name: coreutils }
       - { name: curl }
       - { name: git }
