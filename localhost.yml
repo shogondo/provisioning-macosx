@@ -27,6 +27,7 @@
       - { name: chefdk }
       - { name: google-chrome }
       - { name: mysqlworkbench }
+      - { name: toggldesktop }
       - { name: vagrant }
       - { name: virtualbox }
   tasks:
