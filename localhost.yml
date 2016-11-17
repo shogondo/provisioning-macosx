@@ -18,7 +18,6 @@
       - { name: hub }
       - { name: macvim }
       - { name: mysql }
-      - { name: pandoc }
       - { name: rbenv }
       - { name: ruby-build }
       - { name: vim }
